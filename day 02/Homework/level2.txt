@@ -1,0 +1,31 @@
+name="sandro sulava"
+print(name)
+name="Luka Lortkifanidze"
+print(name)
+name="Luka Navrozashvili"
+print(name)
+name="Nika Kubaneishvili"
+print(name)
+name="Nika Vanishvili"
+print(name)
+name="Tazo Gogishvili"
+print(name)
+name="Tazo Gogishvili"
+print(name)
+name="Anna Grigolia"
+print(name)
+name="Barbare Tinikashvili"
+print(name)
+name="Beso Beso"
+print(name)
+name="Giorgi Nozadze"
+print(name)
+name="Leqso Leverashvili"
+print(name)
+name="Sandro Jalagonia"
+print(name)
+name="Akaki Sixarulidze"
+print(name)
+name="Beridze Mate"
+
+print(name)
