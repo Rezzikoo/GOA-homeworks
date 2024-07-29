@@ -18,15 +18,18 @@
 #     print(ascending_order)
 # ascending_order()
 
-def prime_number():
-    example_number=[2]
-    random_number=5
-    if random_number/example_number:
-        print("false")
-    else:   
+# def prime_number():
+#     example_number=[2]
+#     random_number=5
+#     if random_number/example_number:
+#         print("false")
+#     else:   
 
-        print("True")
-prime_number()
+#         print("True")
+# prime_number() #???
+
+
+
 
     
 
