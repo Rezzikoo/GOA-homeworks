@@ -1,0 +1,14 @@
+a:hover {
+    color: darkgreen;
+    text-decoration: underline color darkgreen;
+}
+
+a:active {
+    color: red;
+    text-decoration: underline color red;
+}
+
+a:visited {
+    color:purple;
+    text-decoration: underline color purple;
+}
