@@ -1,0 +1,16 @@
+ol {
+    list-style: circle;
+    list-style-type: disc;
+    list-style-position: outside;
+    list-style-image: none;
+    color: greenyellow;
+}
+
+ul {
+    list-style: circle;
+    list-style-type:;
+    list-style-position:inside;
+    list-style-image: none;
+    color: purple;
+
+}

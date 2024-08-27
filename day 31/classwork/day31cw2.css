@@ -1,0 +1,19 @@
+input {
+    border-radius: 20px;
+    color: blue;
+    
+
+}
+
+input:focus {
+    outline: navy;
+}
+
+button:hover {
+    color:purple
+}
+
+button {
+    color: red;
+}
+
