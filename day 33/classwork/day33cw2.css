@@ -1,0 +1,13 @@
+.first {
+    background-color: purple;  
+    border: 5px solid red;
+    padding-top: 10px;
+    padding-right: 9px;
+    padding-bottom: 19px;
+    padding-left: 17px;
+    margin: 10px;
+}
+/*padding-top-კონტენტს და საზღვარს შორის დაშორება ზედა მხარეს
+/*padding-right-კონტენტს და საზღვარს შორის დაშორება მარჯვენა მხარეს
+/*padding-bottom-კონტენტს და საზღვარს შორის დაშორება ქვედა მხარეს
+/*padding-left-კონტენტს და საზღვარს შორის დაშორება მარცხენა მხარეს
