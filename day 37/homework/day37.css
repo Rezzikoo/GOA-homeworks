@@ -1,0 +1,46 @@
+/* #example { */
+    /* background-color: purple; */
+
+    /* width: 200px;
+    height: 200px;                                                      
+}
+
+#example:hover {
+    background-color: red;
+
+    width: 210px;
+    height: 210px;
+    position: absolute;
+
+    transform: translate(50px);
+    transform:rotate(90deg);
+    transform-origin: bottom left;
+/* }        */
+    
+
+
+
+
+
+
+
+
+
+#example {
+    background-color: purple;
+
+    width: 200px;
+    height: 200px;
+}
+
+#example:hover {
+    background-color: red;
+
+    width: 210px;
+    height: 210px;
+    position: absolute;
+
+    transform: translate(-5px);
+    transform:rotate(-70deg);
+    transform-origin: bottom left;
+}
