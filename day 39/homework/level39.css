@@ -1,0 +1,36 @@
+header {
+    background-color: grey;
+
+    display: flex;
+    align-items: center;
+    gap: 600px;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+}
+
+@media (max-width:3000px){
+    header{
+        gap: 400px;
+    }
+}
+
+
+@media (max-width:1000px){
+    header{
+        gap: 200px;
+    }
+}
+
+@media (max-width:500px){
+    header{
+        gap: 100px;
+    }
+}
+
+
+    
+

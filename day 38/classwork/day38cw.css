@@ -1,0 +1,21 @@
+#example {
+    background-color: green;
+    border: 2px solid;
+    width: 500px;
+    height: 500px;
+}
+
+#example:hover {
+    transform:rotate(90deg);
+    transition-property:background-color blue;
+    transition-duration: 1s;
+    transition-timing-function:ease-out;
+}
+
+/*transform:rotate(90deg);  ვატრიალებთ კუბს 90 ი გრადუსით
+transition-property:backgorund-color blue;   ფერს ვუცვლით
+transition-duration: 1s;   რამდენი ხანი გრძელდება ჩვენი ანიმაცია
+transition-timing-function:ease-out;  ვირჩევთ რომ ჩვენი ანიმაცია 
+თავიდან უფრო უხეშად დაიწყოსშ
+
+

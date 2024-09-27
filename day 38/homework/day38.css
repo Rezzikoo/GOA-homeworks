@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+
+    animation-name: animation1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes animation1 {
+    1% {
+        transform:scale(1);
+    }
+
+    25% {
+        transform: scale(2);
+    }
+    50% {
+        transform: scale(3);
+    }
+    75% {
+        transform: scale(2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
