@@ -1,0 +1,17 @@
+.div1 {
+    width: 1000px;
+    height:150px;
+    color:#63A3A0;
+    border: solid 2px #63A3A0 ;
+}
+
+.div2 {
+    width: 150px;
+    height: 250px;
+    background: #0B2429;
+    position:absolute ;
+    padding-left: 200px;
+    padding-top: 150px;
+    
+    
+}
