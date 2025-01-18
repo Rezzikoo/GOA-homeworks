@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f7f8;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    width: 90%;
+    overflow: hidden;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .header h1 {
+    color: #2a9d8f;
+    margin: 0;
+  }
+  
+  .header .guarantee {
+    color: #b6c20b;
+    font-weight: bold;
+  }
+  
+  .header .description {
+    color: #666666;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #e6f9f8;
+    padding: 20px;
+  }
+  
+  @media (min-width: 600px) {
+    .content {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  .subscription, .features {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .subscription h2, .features h2 {
+    color: #2a2a2a;
+  }
+  
+  .subscription .price {
+    font-size: 2rem;
+    color: #333333;
+    margin: 10px 0;
+  }
+  
+  .subscription button {
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .subscription button:hover {
+    background-color: #247d73;
+  }
+  
+  .features ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .features ul li {
+    color: #333333;
+    margin: 5px 0;
+    font-size: 0.9rem;
+  }
+  
