@@ -1,0 +1,36 @@
+<html>
+<head>
+
+    <title>getElementById </title>
+    <script>
+        function styleDivs() {
+            for (let i = 1; i <= 10; i++) {
+                let div = document.getElementById("div" + i);
+                div.style.width = "100px";
+                div.style.height = "100px";
+                div.style.margin = "10px";
+                div.style.display = "inline-block";
+                div.style.textAlign = "center";
+                div.style.lineHeight = "100px";
+                div.style.backgroundColor = `rgb(${i * 20}, ${i * 15}, ${i * 10})`;
+                div.innerText = "Div " + i;
+            }
+        }
+    </script>
+</head>
+<body onload="styleDivs()">
+    <h1 id="title">title</h1>
+    <p id="description">example</p>
+    <button id="btn" onclick="styleDivs()">change styles</button>
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+    <div id="div4"></div>
+    <div id="div5"></div>
+    <div id="div6"></div>
+    <div id="div7"></div>
+    <div id="div8"></div>
+    <div id="div9"></div>
+    <div id="div10"></div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>getElementById </title>
+    <script>
+        function changeContent() {
+            document.getElementById("title").innerText = "hello from js";
+            document.getElementById("description").innerText = "this text was edited by js";
+            document.getElementById("btn").style.backgroundColor = "lightblue";
+        }
+    </script>
+</head>
+<body>
+    <h1 id="title">title</h1>
+    <p id="description">example</p>
+    <button id="btn" onclick="changeContent()">changetext</button>
+</body>
+</html>
