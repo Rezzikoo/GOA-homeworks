@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Loop Divs</title>
+</head>
+<body>
+    <div id="container">
+     
+    </div>
+
+    <script>
+        let container = document.getElementById("container");
+
+        
+        for (let i = 0; i < 10; i++) {
+            
+            let divHead = document.createElement("div");
+            let divEnd = document.createElement("div");
+
+            
+            divHead.style.width = "200px";
+            divHead.style.height = "200px";
+            divHead.style.backgroundColor = "red";
+            divHead.style.margin = "10px";
+
+            divEnd.style.width = "200px";
+            divEnd.style.height = "200px";
+            divEnd.style.backgroundColor = "red";
+            divEnd.style.margin = "10px";
+
+            
+            container.prepend(divHead);
+
+            
+            container.append(divEnd);
+        }
+    </script>
+</body>
+</html>
