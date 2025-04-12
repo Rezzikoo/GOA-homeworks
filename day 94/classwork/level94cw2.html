@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>examplewebsite</title>
+    <script>
+        function printChildText(element) {
+            
+            if (element.children.length > 0) {
+                
+                const text = element.children[0].textContent;
+                console.log(text); 
+            } else {
+                console.log("no text"); 
+            }
+        }
+    </script>
+</head>
+<body>
+    
+    <div id="exampleDiv">
+        <p>blablaba</p>
+    </div>
+
+    
+    <div id="emptyDiv"></div>
+
+    
+    <button onclick="printChildText(document.getElementById('exampleDiv'))">Check Text (ExampleDiv)</button>
+    
+    
+    <button onclick="printChildText(document.getElementById('emptyDiv'))">Check Text (EmptyDiv)</button>
+</body>
+</html>

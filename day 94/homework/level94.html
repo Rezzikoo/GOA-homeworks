@@ -1,0 +1,51 @@
+<html>
+<head>
+  <style>
+    div {
+      width: 80px;
+      height: 80px;
+      background-color: lightgray;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div id="box1">1</div>
+<div id="box2">2</div>
+<div id="box3">3</div>
+<div id="box4">4</div>
+
+<br>
+
+
+<input id="inputBox" type="number">
+<button onclick="highlight()">highlight</button>
+
+<script>
+  function highlight() {
+    
+    document.getElementById("box1").style.backgroundColor = "lightgray";
+    document.getElementById("box2").style.backgroundColor = "lightgray";
+    document.getElementById("box3").style.backgroundColor = "lightgray";
+    document.getElementById("box4").style.backgroundColor = "lightgray";
+
+    
+    var number = document.getElementById("inputBox").value;
+
+    if (number == "1") {
+      document.getElementById("box1").style.backgroundColor = "orange";
+    } else if (number == "2") {
+      document.getElementById("box2").style.backgroundColor = "orange";
+    } else if (number == "3") {
+      document.getElementById("box3").style.backgroundColor = "orange";
+    } else if (number == "4") {
+      document.getElementById("box4").style.backgroundColor = "orange";
+    } else {
+      alert("Please enter a number between 1 and 4");
+    }
+  }
+</script>
+
+</body>
+</html>
