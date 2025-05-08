@@ -1,0 +1,1 @@
+def f(s):return''if not s else s[::-1]if s[0].isupper()else s

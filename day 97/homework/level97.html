@@ -1,0 +1,43 @@
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      transition: background-color 0.3s;
+      padding: 20px;
+    }
+    .form-container {
+      max-width: 300px;
+      margin: auto;
+    }
+    input[type="text"], input[type="number"] {
+      width: 100%;
+      padding: 8px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Registration Form</h2>
+    <form id="registrationForm">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br><br>
+      
+      <label for="age">Age:</label><br>
+      <input type="number" id="age" name="age" oninput="checkAge()"><br>
+    </form>
+  </div>
+
+  <script>
+    function checkAge() {
+      const age = document.getElementById("age").value;
+      if (age === "") return;
+      document.body.style.backgroundColor = age > 18 ? "violet" : "purple";
+    }
+  </script>
+
+</body>
+</html>

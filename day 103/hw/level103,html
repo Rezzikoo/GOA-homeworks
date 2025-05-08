@@ -1,0 +1,63 @@
+<html>
+<head>
+  <style>
+    #slider {
+      width: 300px;
+      height: 200px;
+      border: 2px solid #ccc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+    button {
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="slider">
+    <img id="slide" src=>
+  </div>
+
+  <button onclick="prev()">Previous</button>
+  <button onclick="next()">Next</button>
+
+  <script>
+    
+    let images = [
+      
+    ];
+
+    let index = 0;
+
+    function showImage() {
+      document.getElementById("slide").src = images[index];
+    }
+
+    function next() {
+      if (index < images.length - 1) {
+        index++;
+      } else {
+        index = 0;
+      }
+      showImage();
+    }
+
+    function prev() {
+      if (index > 0) {
+        index--;
+      } else {
+        index = images.length - 1;
+      }
+      showImage();
+    }
+  </script>
+
+</body>
+</html>

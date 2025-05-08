@@ -1,0 +1,33 @@
+<html>
+<head>
+  <style>
+    .new-div {
+      margin: 10px;
+      padding: 10px;
+      background-color: red;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+
+  
+  <button id="Button">add</button>
+
+  <script>
+    
+    let button = document.getElementById('Button');
+
+    
+    button.addEventListener('click', function() {
+      
+      const newDiv = document.createElement("div");
+      newDiv.className = "new-div";
+      
+
+      document.body.appendChild(newDiv);
+    });
+  </script>
+
+</body>
+</html>

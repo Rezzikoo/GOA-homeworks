@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title>example website</title>
+  <style>
+    #animatedDiv {
+      width: 150px;
+      height: 150px;
+      background-color: purple;
+      display: flex;
+      align-items: center;
+      justify-content: center; 
+    }
+  </style>
+</head>
+<body>
+
+<div id="animstedDiv">click me</div>
+
+<script>
+  let animatedDiv = document.getElementById("animatedDiv");
+
+  function click() {
+   
+    animatedDiv.style.opacity = "0";
+
+    setTimeout(() => {animatedDiv.style.opacity = "1";}, 1000);
+  }
+
+  animatedDiv.addEventListener("click", click);
+</script>
+
+</body>
+</html>

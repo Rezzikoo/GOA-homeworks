@@ -1,0 +1,68 @@
+<!-- <html>
+<head>
+</head>
+<body>
+
+  <div id="parent" style="padding: 20px; background-color: white; width: 200px;">
+    <button id="child">Click Me</button>
+  </div>
+
+  <script>
+    
+    document.getElementById('parent').addEventListener('click', function(event) {
+      console.log('Parent DIV clicked:', event);
+    });
+
+    
+    document.getElementById('child').addEventListener('click', function(event) {
+      console.log('Button clicked:', event);
+    });
+  </script>
+
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+  <style>
+    #outer {
+      padding: 40px;
+      background-color: #cce;
+    }
+
+    #inner {
+      padding: 20px;
+      background-color: #88f;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="outer">
+    Outer DIV
+    <div id="inner">Inner DIV</div>
+  </div>
+
+  <script>
+   
+    document.getElementById('outer').addEventListener('click', function(event) {
+      console.log('Outer DIV clicked (capturing)');
+    }, true); 
